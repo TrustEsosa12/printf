@@ -1,6 +1,6 @@
-18/10/22  \" DATE
-.Sh AUTHOR  \"Esosa Joseph, Abdullah Olayiwola
-.Dt _Printf ( "Alx Software Engineering Printf Manual"  \" Program name and 
+18/10/22 \" DATE
+.Sh AUTHOR \"Esosa Joseph, Abdullah Olayiwola
+.Dt _Printf ("Alx Software Engineering Printf Manual" \" Program name and 
 manual section number
 \" Section Header - required - don't modify
 .Nm _Printf,
@@ -11,14 +11,14 @@ line.
 .nm 
 .\" Use .Nm macro to designate other names for the documented program.
 .Nd Our own version of the function printf
-.Sh SYNOPSIS  \" Section Header - required - don't modify
-.Nm #include <stdio.h>  \" [-abcd]
-int _printf(const char *restrict format, ...);  \" Arguments
-.Sh DESCRIPTION  \" Section Header - required - don't modify
+.Sh SYNOPSIS \" Section Header - required - don't modify
+.Nm #include <stdio.h> \" [-abcd]
+int _printf(const char *restrict format, ...); \" Arguments
+.Sh DESCRIPTION \" Section Header - required - don't modify
 The functions in the 
 .Nm printf()
  family produce output according to a format as described below.
-.El  \" Ends the list
+.El \" Ends the list
 .Pp
 .\" .Sh ENVIRONMENT  \" May not be needed
 .\" .Bl -tag -width "ENV_VAR_1" -indent \" ENV_VAR_1 is width of the string 
@@ -71,4 +71,4 @@ int main()
 _printf("Hello world, I'm a %s", "Idrees");
 return (0);
 }
-Hello world, I'm a nurse
+Hello world, I'm a full-stack engineer
