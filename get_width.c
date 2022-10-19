@@ -22,7 +22,7 @@ else if (format[curr_i] == '*')
 curr_i++;
 width = va_arg(list, int);
 break;
-}									
+}
 else
 break;
 }
